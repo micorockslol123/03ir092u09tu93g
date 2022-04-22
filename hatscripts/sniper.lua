@@ -1,3 +1,47 @@
+
+TheHatLol = "Sniper"
+TheHatLol2 = TheHatLol
+
+if not workspace[game.Players.LocalPlayer.Name]:FindFirstChild(TheHatLol) then
+			local sound = Instance.new("Sound", game.StarterGui)
+		sound.SoundId = "rbxassetid://8426701399"
+		sound.Volume = 3
+		sound:Play()    
+		game.StarterGui:SetCore("SendNotification", {
+			Title = "Project Zeno: Reborn",
+			Text = "Missing Hat: ".. TheHatLol
+		})
+		wait(2)
+		sound:Destroy()
+		return
+end
+if not workspace[game.Players.LocalPlayer.Name]:FindFirstChild(TheHatLol2) then
+			local sound = Instance.new("Sound", game.StarterGui)
+		sound.SoundId = "rbxassetid://8426701399"
+		sound.Volume = 3
+		sound:Play()
+		game.StarterGui:SetCore("SendNotification", {
+			Title = "Project Zeno: Reborn",
+			Text = "Missing Hat: ".. TheHatLol2
+		})
+		wait(2)
+		sound:Destroy()
+		return
+end
+if not workspace[game.Players.LocalPlayer.Name]:FindFirstChild("Cat") then
+			local sound = Instance.new("Sound", game.StarterGui)
+		sound.SoundId = "rbxassetid://8426701399"
+		sound.Volume = 3
+		sound:Play()
+		game.StarterGui:SetCore("SendNotification", {
+			Title = "Project Zeno: Reborn",
+			Text = "Not Reanimated!, Reanimate please."
+		})
+		wait(2)
+		sound:Destroy()
+		return
+end
+
 local function Align(Part0,Part1,Position,Orientation)
 	local Att = Instance.new("Attachment")
 	Att.Parent = Part0
@@ -373,7 +417,7 @@ ScopeZoomweld = CreateWeld(m, FakeHandle, ScopeZoom, CFrame.new(0, 0, 0, 1, 0, 0
 for i,v in pairs(Char:GetDescendants()) do
 	if v:IsA("BasePart") then v.Transparency = 1 end
 end
-local hat = Char["CRL4Accessory"].Handle
+local hat = Char["Sniper"].Handle
 Align(hat,Handle,Vector3.new(-0.8,-0.2,0),Vector3.new(-0, -180, 0))
 local PE1 = Create("ParticleEmitter"){
 	Parent = Barrel,
