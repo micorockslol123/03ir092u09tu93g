@@ -2,9 +2,9 @@ if not _G.ScriptStop then _G.ScriptStop = false end
 if not _G.EventTable then _G.EventTable = {} end
 if not _G.AnimsOff then _G.AnimsOff = false end
 if not _G.SimulationRadius then _G.SimulationRadius = false end
-local Version = loadstring(game:HttpGet("https://raw.githubusercontent.com/stev15291/catv2/main/currentversion"))()
-local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/stev15291/catv2/main/misc/uilib.lua"))()
-local Main = Library:Create("Project: Cat")
+local Version = loadstring(game:HttpGet("https://raw.githubusercontent.com/micorockslol123/03ir092u09tu93g/main/currentversion"))()
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/micorockslol123/03ir092u09tu93g/main/misc/uilib.lua"))()
+local Main = Library:Create("Project: Zeno")
 local Tab1 = Main:Tab("Home")
 local Tab2 = Main:Tab("Reanimations")
 local Tab3 = Main:Tab("Scripts")
@@ -13,13 +13,13 @@ local Tab5 = Main:Tab("Hats")
 local Tab6 = Main:Tab("Credits")
 local Tab7 = Main:Tab("Information")
 function Link(a)
-	loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/stev15291/catv2/main/"..a..".lua"))()
+	loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/micorockslol123/03ir092u09tu93g/main/"..a..".lua"))()
 end
 Tab1:Label("Welcome, "..game.Players.LocalPlayer.Name..".")
 Tab1:Label("Current Version: ".._G.ProjectCatVersion)
 Tab1:Button("Copy Discord Invite", function()
     if setclipboard then
-        setclipboard("https://discord.gg/cDKDEdQKaq")
+        setclipboard("https://discord.gg/UmxxA9qvME")
     end
 end)
 Tab6:Label("TheGamer101 - R15 Hat Fix")
