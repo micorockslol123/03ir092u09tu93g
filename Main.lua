@@ -22,10 +22,8 @@ Tab1:Button("Copy Discord Invite", function()
         setclipboard("https://discord.gg/UmxxA9qvME")
     end
 end)
-Tab6:Label("TheGamer101 - R15 Hat Fix")
-Tab6:Label("Mizt - R15 Dummy")
-Tab6:Label("Ches - Good Velocity Axis")
-Tab6:Label("Gelatek - UI, Reanimations, Converts, Misc.")
+Tab6:Label("Ang - Good Velocity Axis")
+Tab6:Label("Zeno - UI, Reanimations, Converts, Misc.")
 Tab6:Line()
 Tab2:Toggle("Disable Animate Script", function(a)
 	_G.AnimsOff = a
