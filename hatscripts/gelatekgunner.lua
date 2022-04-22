@@ -1,5 +1,5 @@
-TheHatLol = "Police K4LAS [Front]"
-TheHatLol2 = TheHatLol -- "Police K4LAS [Front]"
+TheHatLol = "CR-L-4-Back"
+TheHatLol2 = TheHatLol -- "CR-L-4-Back"
 if not workspace[game.Players.LocalPlayer.Name]:FindFirstChild(TheHatLol) then
 			local sound = Instance.new("Sound", game.StarterGui)
 		sound.SoundId = "rbxassetid://8426701399"
@@ -124,7 +124,7 @@ local UserInputService = game:GetService("UserInputService")
 Humanoid.WalkSpeed = 25
 reanim = Character
 
-local Hat = Character:FindFirstChild("Police K4LAS [Front]")
+local Hat = Character:FindFirstChild("CR-L-4-Back")
 
 
 local soundeffect = Instance.new("Sound", Hat.Handle)
@@ -205,7 +205,7 @@ Character[Hat].Handle.AccessoryWeld.C1=C1 or CFrame.new()
 Character[Hat].Handle.AccessoryWeld.C0=C0 or CFrame.new()--3bbb322dad5929d0d4f25adcebf30aa5
 end
 
-HatSetup('Police K4LAS [Front]','Right Arm',CFrame.new(),reanim['Police K4LAS [Front]'].Handle.AccessoryWeld.C0:Lerp(CF(0+0*math.cos(sine/13),-0.5+0*math.cos(sine/13),-0.4+0*math.cos(sine/13))*ANGLES(RAD(268+0*math.cos(sine/13)),RAD(0+0*math.cos(sine/13)),RAD(0+0*math.cos(sine/13))),1),false)
+HatSetup('CR-L-4-Back','Right Arm',CFrame.new(),reanim['CR-L-4-Back'].Handle.AccessoryWeld.C0:Lerp(CF(0+0*math.cos(sine/13),-0.5+0*math.cos(sine/13),-0.4+0*math.cos(sine/13))*ANGLES(RAD(268+0*math.cos(sine/13)),RAD(0+0*math.cos(sine/13)),RAD(0+0*math.cos(sine/13))),1),false)
 
 
 
@@ -225,7 +225,7 @@ spawn(function()
 		LS.C0 = LS.C0:Lerp(CF(-1+0*math.cos(sine/13),0.5+0.05*math.cos(sine/13),0+0*math.cos(sine/13))*ANGLES(RAD(0+-8*math.cos(sine/13)),RAD(0+0*math.cos(sine/13)),RAD(-4+0*math.cos(sine/13))),.3)
 		RH.C0 = RH.C0:Lerp(CF(0.5+0*math.sin(sine/13),-0.9+0.05*math.cos(sine/13),-0.2+0*math.cos(sine/13))*ANGLES(RAD(0+0*math.cos(sine/13)),RAD(-8+0*math.cos(sine/13)),RAD(0+0*math.cos(sine/13))),.3)
 		LH.C0 = LH.C0:Lerp(CF(-0.5+0*math.sin(sine/13),-0.9+0.05*math.cos(sine/13),-0.2+0*math.cos(sine/13))*ANGLES(RAD(0+0*math.cos(sine/13)),RAD(16+0*math.cos(sine/13)),RAD(1+0*math.cos(sine/13))),.3)
-		reanim['Police K4LAS [Front]'].Handle.AccessoryWeld.C0 = reanim['Police K4LAS [Front]'].Handle.AccessoryWeld.C0:Lerp(CF(0+0*math.cos(sine/13),-0.5+0*math.cos(sine/13),-0.4+0*math.cos(sine/13))*ANGLES(RAD(268+0*math.cos(sine/13)),RAD(0+0*math.cos(sine/13)),RAD(0+0*math.cos(sine/13))),.3)
+		reanim['CR-L-4-Back'].Handle.AccessoryWeld.C0 = reanim['CR-L-4-Back'].Handle.AccessoryWeld.C0:Lerp(CF(0+0*math.cos(sine/13),-0.5+0*math.cos(sine/13),-0.4+0*math.cos(sine/13))*ANGLES(RAD(268+0*math.cos(sine/13)),RAD(0+0*math.cos(sine/13)),RAD(0+0*math.cos(sine/13))),.3)
 
 
 		elseif Position == "Run" then
@@ -235,7 +235,7 @@ spawn(function()
 			LS.C0 = LS.C0:Lerp(CF(-0.9+0*math.cos(sine/13),0.5+0*math.cos(sine/13),0+0*math.cos(sine/13))*ANGLES(RAD(0+0*math.cos(sine/13)),RAD(0+0*math.cos(sine/13)),RAD(16+0*math.cos(sine/13))),.3)
 			RH.C0 = RH.C0:Lerp(CF(0.5+0*math.cos(sine/13),-1+0*math.cos(sine/13),0+0*math.cos(sine/13))*ANGLES(RAD(0+52*math.cos(sine/13)),RAD(0+0*math.cos(sine/13)),RAD(0+0*math.cos(sine/13))),.3)
 			LH.C0 = LH.C0:Lerp(CF(-0.5+0*math.cos(sine/13),-1+0*math.cos(sine/13),0+0*math.cos(sine/13))*ANGLES(RAD(0+-52*math.cos(sine/13)),RAD(0+0*math.cos(sine/13)),RAD(0+0*math.cos(sine/13))),.3)
-			reanim['Police K4LAS [Front]'].Handle.AccessoryWeld.C0 = reanim['Police K4LAS [Front]'].Handle.AccessoryWeld.C0:Lerp(CF(0+0*math.cos(sine/13),-0.5+0*math.cos(sine/13),-1+0*math.cos(sine/13))*ANGLES(RAD(268+0*math.cos(sine/13)),RAD(0+0*math.cos(sine/13)),RAD(0+0*math.cos(sine/13))),.3)
+			reanim['CR-L-4-Back'].Handle.AccessoryWeld.C0 = reanim['CR-L-4-Back'].Handle.AccessoryWeld.C0:Lerp(CF(0+0*math.cos(sine/13),-0.5+0*math.cos(sine/13),-1+0*math.cos(sine/13))*ANGLES(RAD(268+0*math.cos(sine/13)),RAD(0+0*math.cos(sine/13)),RAD(0+0*math.cos(sine/13))),.3)
 
 
 		elseif Position == "Jump" then
@@ -245,7 +245,7 @@ spawn(function()
 			LS.C0 = LS.C0:Lerp(CF(-1+0*math.cos(sine/13),0.5+0*math.cos(sine/13),0+0*math.cos(sine/13))*ANGLES(RAD(1+0*math.cos(sine/13)),RAD(0+0*math.cos(sine/13)),RAD(-40+-2*math.cos(sine/13))),.3)
 			RH.C0 = RH.C0:Lerp(CF(0.5+0*math.cos(sine/13),-0.5+0*math.cos(sine/13),-0.3+0*math.cos(sine/13))*ANGLES(RAD(0+0*math.cos(sine/13)),RAD(0+0*math.cos(sine/13)),RAD(0+0*math.cos(sine/13))),.3)
 			LH.C0 = LH.C0:Lerp(CF(-0.5+0*math.cos(sine/13),-1+0*math.cos(sine/13),0+0*math.cos(sine/13))*ANGLES(RAD(0+0*math.cos(sine/13)),RAD(0+0*math.cos(sine/13)),RAD(0+0*math.cos(sine/13))),.3)
-			reanim['Police K4LAS [Front]'].Handle.AccessoryWeld.C0 = reanim['Police K4LAS [Front]'].Handle.AccessoryWeld.C0:Lerp(CF(0+0*math.cos(sine/13),-0.5+0*math.cos(sine/13),-1+0*math.cos(sine/13))*ANGLES(RAD(268+0*math.cos(sine/13)),RAD(0+0*math.cos(sine/13)),RAD(0+0*math.cos(sine/13))),.3)
+			reanim['CR-L-4-Back'].Handle.AccessoryWeld.C0 = reanim['CR-L-4-Back'].Handle.AccessoryWeld.C0:Lerp(CF(0+0*math.cos(sine/13),-0.5+0*math.cos(sine/13),-1+0*math.cos(sine/13))*ANGLES(RAD(268+0*math.cos(sine/13)),RAD(0+0*math.cos(sine/13)),RAD(0+0*math.cos(sine/13))),.3)
 		elseif Position == "Fall" then
 			NECK.C0 = NECK.C0:Lerp(CF(0+0*math.cos(sine/13),1+0*math.cos(sine/13),0+0*math.cos(sine/13))*ANGLES(RAD(0+0*math.cos(sine/13)),RAD(0+0*math.cos(sine/13)),RAD(0+0*math.cos(sine/13))),.3)
 			RJ.C0 = RJ.C0:Lerp(CF(0+0*math.cos(sine/13),0+0*math.cos(sine/13),0+0*math.cos(sine/13))*ANGLES(RAD(-6+2*math.cos(sine/13)),RAD(0+0*math.cos(sine/13)),RAD(0+0*math.cos(sine/13))),.3)
@@ -253,7 +253,7 @@ spawn(function()
 			LS.C0 = LS.C0:Lerp(CF(-1+0*math.cos(sine/13),0.5+0*math.cos(sine/13),0+0*math.cos(sine/13))*ANGLES(RAD(1+0*math.cos(sine/13)),RAD(0+0*math.cos(sine/13)),RAD(-10+-3*math.cos(sine/13))),.3)
 			RH.C0 = RH.C0:Lerp(CF(0.5+0*math.cos(sine/13),-0.76+0*math.cos(sine/13),-0.1+0*math.cos(sine/13))*ANGLES(RAD(0+0*math.cos(sine/13)),RAD(0+0*math.cos(sine/13)),RAD(0+0*math.cos(sine/13))),.3)
 			LH.C0 = LH.C0:Lerp(CF(-0.5+0*math.cos(sine/13),-1+0*math.cos(sine/13),0+0*math.cos(sine/13))*ANGLES(RAD(0+0*math.cos(sine/13)),RAD(0+0*math.cos(sine/13)),RAD(0+0*math.cos(sine/13))),.3)
-			reanim['Police K4LAS [Front]'].Handle.AccessoryWeld.C0 = reanim['Police K4LAS [Front]'].Handle.AccessoryWeld.C0:Lerp(CF(0+0*math.cos(sine/13),-0.5+0*math.cos(sine/13),-1+0*math.cos(sine/13))*ANGLES(RAD(268+0*math.cos(sine/13)),RAD(0+0*math.cos(sine/13)),RAD(0+0*math.cos(sine/13))),.3)
+			reanim['CR-L-4-Back'].Handle.AccessoryWeld.C0 = reanim['CR-L-4-Back'].Handle.AccessoryWeld.C0:Lerp(CF(0+0*math.cos(sine/13),-0.5+0*math.cos(sine/13),-1+0*math.cos(sine/13))*ANGLES(RAD(268+0*math.cos(sine/13)),RAD(0+0*math.cos(sine/13)),RAD(0+0*math.cos(sine/13))),.3)
 			
 		elseif Position == "Attack1" then
 			NECK.C0 = NECK.C0:Lerp(CF(0+0*math.cos(sine/13),1+0*math.cos(sine/13),0+0*math.cos(sine/13))*ANGLES(RAD(0+0*math.cos(sine/13)),RAD(0+0*math.cos(sine/13)),RAD(0+0*math.cos(sine/13))),.3)
@@ -262,7 +262,7 @@ spawn(function()
 			LS.C0 = LS.C0:Lerp(CF(-0.9+0*math.cos(sine/13),0.5+0.1*math.cos(sine/13),0+0*math.cos(sine/13))*ANGLES(RAD(0+0*math.cos(sine/13)),RAD(0+0*math.cos(sine/13)),RAD(16+0*math.cos(sine/13))),.3)
 			RH.C0 = RH.C0:Lerp(CF(0.5+0*math.sin(sine/13),-0.9+0.05*math.cos(sine/13),-0.2+0*math.cos(sine/13))*ANGLES(RAD(0+0*math.cos(sine/13)),RAD(-8+0*math.cos(sine/13)),RAD(0+0*math.cos(sine/13))),.3)
 			LH.C0 = LH.C0:Lerp(CF(-0.5+0*math.sin(sine/13),-0.9+0.05*math.cos(sine/13),-0.2+0*math.cos(sine/13))*ANGLES(RAD(0+0*math.cos(sine/13)),RAD(16+0*math.cos(sine/13)),RAD(1+0*math.cos(sine/13))),.3)
-			reanim['Police K4LAS [Front]'].Handle.AccessoryWeld.C0 = reanim['Police K4LAS [Front]'].Handle.AccessoryWeld.C0:Lerp(CF(0+0*math.cos(sine/13),-0.5+0*math.cos(sine/13),-1.2+0*math.cos(sine/13))*ANGLES(RAD(92+0*math.cos(sine/13)),RAD(3+0*math.cos(sine/13)),RAD(179+0*math.cos(sine/13))),.3)
+			reanim['CR-L-4-Back'].Handle.AccessoryWeld.C0 = reanim['CR-L-4-Back'].Handle.AccessoryWeld.C0:Lerp(CF(0+0*math.cos(sine/13),-0.5+0*math.cos(sine/13),-1.2+0*math.cos(sine/13))*ANGLES(RAD(92+0*math.cos(sine/13)),RAD(3+0*math.cos(sine/13)),RAD(179+0*math.cos(sine/13))),.3)
 		elseif Position == "Attack2" then
 			NECK.C0 = NECK.C0:Lerp(CF(0+0*math.cos(sine/13),1+0*math.cos(sine/13),0+0*math.cos(sine/13))*ANGLES(RAD(0+0*math.cos(sine/13)),RAD(0+0*math.cos(sine/13)),RAD(0+0*math.cos(sine/13))),.3)
 			RJ.C0 = RJ.C0:Lerp(CF(0+0*math.cos(sine/13),0+0*math.cos(sine/13),0+0*math.cos(sine/13))*ANGLES(RAD(0+0*math.cos(sine/13)),RAD(0+0*math.cos(sine/13)),RAD(0+0*math.cos(sine/13))),.3)
@@ -270,7 +270,7 @@ spawn(function()
 			LS.C0 = LS.C0:Lerp(CF(-0.9+0*math.cos(sine/13),0.5+0.1*math.cos(sine/13),0+0*math.cos(sine/13))*ANGLES(RAD(0+0*math.cos(sine/13)),RAD(0+0*math.cos(sine/13)),RAD(16+0*math.cos(sine/13))),.3)
 			RH.C0 = RH.C0:Lerp(CF(0.5+0*math.sin(sine/13),-0.9+0.05*math.cos(sine/13),-0.2+0*math.cos(sine/13))*ANGLES(RAD(0+0*math.cos(sine/13)),RAD(-8+0*math.cos(sine/13)),RAD(0+0*math.cos(sine/13))),.3)
 			LH.C0 = LH.C0:Lerp(CF(-0.5+0*math.sin(sine/13),-0.9+0.05*math.cos(sine/13),-0.2+0*math.cos(sine/13))*ANGLES(RAD(0+0*math.cos(sine/13)),RAD(16+0*math.cos(sine/13)),RAD(1+0*math.cos(sine/13))),.3)
-			reanim['Police K4LAS [Front]'].Handle.AccessoryWeld.C0 = reanim['Police K4LAS [Front]'].Handle.AccessoryWeld.C0:Lerp(CF(0+0*math.cos(sine/13),-0.5+0*math.cos(sine/13),-1.2+0*math.cos(sine/13))*ANGLES(RAD(92+0*math.cos(sine/13)),RAD(3+0*math.cos(sine/13)),RAD(179+0*math.cos(sine/13))),.3)
+			reanim['CR-L-4-Back'].Handle.AccessoryWeld.C0 = reanim['CR-L-4-Back'].Handle.AccessoryWeld.C0:Lerp(CF(0+0*math.cos(sine/13),-0.5+0*math.cos(sine/13),-1.2+0*math.cos(sine/13))*ANGLES(RAD(92+0*math.cos(sine/13)),RAD(3+0*math.cos(sine/13)),RAD(179+0*math.cos(sine/13))),.3)
 		elseif Position == "RunAttack1" then
 			NECK.C0 = NECK.C0:Lerp(CF(0+0*math.cos(sine/13),1+0*math.cos(sine/13),0+0*math.cos(sine/13))*ANGLES(RAD(0+0*math.cos(sine/13)),RAD(0+0*math.cos(sine/13)),RAD(0+0*math.cos(sine/13))),.3)
 			RJ.C0 = RJ.C0:Lerp(CF(0+0*math.cos(sine/13),0+0*math.cos(sine/13),0+0*math.cos(sine/13))*ANGLES(RAD(0+0*math.cos(sine/13)),RAD(0+0*math.cos(sine/13)),RAD(0+0*math.cos(sine/13))),.3)
@@ -278,7 +278,7 @@ spawn(function()
 			LS.C0 = LS.C0:Lerp(CF(-0.9+0*math.cos(sine/13),0.5+0.1*math.cos(sine/13),0+0*math.cos(sine/13))*ANGLES(RAD(0+0*math.cos(sine/13)),RAD(0+0*math.cos(sine/13)),RAD(16+0*math.cos(sine/13))),.3)
 			RH.C0 = RH.C0:Lerp(CF(0.5+0*math.cos(sine/13),-1+0*math.cos(sine/13),0+0*math.cos(sine/13))*ANGLES(RAD(0+52*math.cos(sine/13)),RAD(0+0*math.cos(sine/13)),RAD(0+0*math.cos(sine/13))),.3)
 			LH.C0 = LH.C0:Lerp(CF(-0.5+0*math.cos(sine/13),-1+0*math.cos(sine/13),0+0*math.cos(sine/13))*ANGLES(RAD(0+-52*math.cos(sine/13)),RAD(0+0*math.cos(sine/13)),RAD(0+0*math.cos(sine/13))),.3)
-			reanim['Police K4LAS [Front]'].Handle.AccessoryWeld.C0 = reanim['Police K4LAS [Front]'].Handle.AccessoryWeld.C0:Lerp(CF(0+0*math.cos(sine/13),-0.5+0*math.cos(sine/13),-1.2+0*math.cos(sine/13))*ANGLES(RAD(92+0*math.cos(sine/13)),RAD(3+0*math.cos(sine/13)),RAD(179+0*math.cos(sine/13))),.3)
+			reanim['CR-L-4-Back'].Handle.AccessoryWeld.C0 = reanim['CR-L-4-Back'].Handle.AccessoryWeld.C0:Lerp(CF(0+0*math.cos(sine/13),-0.5+0*math.cos(sine/13),-1.2+0*math.cos(sine/13))*ANGLES(RAD(92+0*math.cos(sine/13)),RAD(3+0*math.cos(sine/13)),RAD(179+0*math.cos(sine/13))),.3)
 		elseif Position == "RunAttack2" then
 			NECK.C0 = NECK.C0:Lerp(CF(0+0*math.cos(sine/13),1+0*math.cos(sine/13),0+0*math.cos(sine/13))*ANGLES(RAD(0+0*math.cos(sine/13)),RAD(0+0*math.cos(sine/13)),RAD(0+0*math.cos(sine/13))),.3)
 			RJ.C0 = RJ.C0:Lerp(CF(0+0*math.cos(sine/13),0+0*math.cos(sine/13),0+0*math.cos(sine/13))*ANGLES(RAD(0+0*math.cos(sine/13)),RAD(0+0*math.cos(sine/13)),RAD(0+0*math.cos(sine/13))),.3)
@@ -286,7 +286,7 @@ spawn(function()
 			LS.C0 = LS.C0:Lerp(CF(-0.9+0*math.cos(sine/13),0.5+0.1*math.cos(sine/13),0+0*math.cos(sine/13))*ANGLES(RAD(0+0*math.cos(sine/13)),RAD(0+0*math.cos(sine/13)),RAD(16+0*math.cos(sine/13))),.3)
 			RH.C0 = RH.C0:Lerp(CF(0.5+0*math.cos(sine/13),-1+0*math.cos(sine/13),0+0*math.cos(sine/13))*ANGLES(RAD(0+52*math.cos(sine/13)),RAD(0+0*math.cos(sine/13)),RAD(0+0*math.cos(sine/13))),.3)
 			LH.C0 = LH.C0:Lerp(CF(-0.5+0*math.cos(sine/13),-1+0*math.cos(sine/13),0+0*math.cos(sine/13))*ANGLES(RAD(0+-52*math.cos(sine/13)),RAD(0+0*math.cos(sine/13)),RAD(0+0*math.cos(sine/13))),.3)
-			reanim['Police K4LAS [Front]'].Handle.AccessoryWeld.C0 = reanim['Police K4LAS [Front]'].Handle.AccessoryWeld.C0:Lerp(CF(0+0*math.cos(sine/13),-0.5+0*math.cos(sine/13),-1.2+0*math.cos(sine/13))*ANGLES(RAD(92+0*math.cos(sine/13)),RAD(3+0*math.cos(sine/13)),RAD(179+0*math.cos(sine/13))),.3)
+			reanim['CR-L-4-Back'].Handle.AccessoryWeld.C0 = reanim['CR-L-4-Back'].Handle.AccessoryWeld.C0:Lerp(CF(0+0*math.cos(sine/13),-0.5+0*math.cos(sine/13),-1.2+0*math.cos(sine/13))*ANGLES(RAD(92+0*math.cos(sine/13)),RAD(3+0*math.cos(sine/13)),RAD(179+0*math.cos(sine/13))),.3)
 		end
 	end
 end)
