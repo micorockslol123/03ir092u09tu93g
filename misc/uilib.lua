@@ -69,7 +69,7 @@ function Library:Create(text)
 	Title.Position = UDim2.new(0.0318017863, 0, 0.0242438726, 0)
 	Title.Size = UDim2.new(0, 118, 0, 24)
 	Title.Font = Enum.Font.GothamSemibold
-	Title.Text = text or "Project: Cat"
+	Title.Text = text or "Project: Zeno"
 	Title.TextColor3 = Color3.fromRGB(255, 87, 90)
 	Title.TextSize = 15.000
 	Title.TextXAlignment = Enum.TextXAlignment.Left
