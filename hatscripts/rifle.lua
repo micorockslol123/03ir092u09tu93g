@@ -8,7 +8,7 @@ if not workspace[game.Players.LocalPlayer.Name]:FindFirstChild(TheHatLol) then
 		sound.Volume = 3
 		sound:Play()    
 		game.StarterGui:SetCore("SendNotification", {
-			Title = "Project Cat: Reborn",
+			Title = "Project Zeno: Reborn",
 			Text = "Missing Hat: ".. TheHatLol
 		})
 		wait(2)
@@ -21,7 +21,7 @@ if not workspace[game.Players.LocalPlayer.Name]:FindFirstChild(TheHatLol2) then
 		sound.Volume = 3
 		sound:Play()
 		game.StarterGui:SetCore("SendNotification", {
-			Title = "Project Cat: Reborn",
+			Title = "Project Zeno: Reborn",
 			Text = "Missing Hat: ".. TheHatLol2
 		})
 		wait(2)
@@ -34,7 +34,7 @@ if not workspace[game.Players.LocalPlayer.Name]:FindFirstChild("Cat") then
 		sound.Volume = 3
 		sound:Play()
 		game.StarterGui:SetCore("SendNotification", {
-			Title = "Project Cat: Reborn",
+			Title = "Project Zeno: Reborn",
 			Text = "Not Reanimated!, Reanimate please."
 		})
 		wait(2)
