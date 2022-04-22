@@ -1,7 +1,7 @@
 --if not _G.EventTable then _G.EventTable = {} end
 if game:GetService("Players").LocalPlayer.Character:FindFirstChild("Cat") then
     game.StarterGui:SetCore("SendNotification",{
-        Title = "Project: Cat - Reborn",
+        Title = "Project: Zeno - Reborn",
         Text = "Couldn't Reanimate (Already Running!)",
     })
     return
