@@ -1,5 +1,5 @@
 
-TheHatLol = "Sniper"
+TheHatLol = "CRL4Accessory"
 TheHatLol2 = TheHatLol
 
 if not workspace[game.Players.LocalPlayer.Name]:FindFirstChild(TheHatLol) then
@@ -416,7 +416,7 @@ ScopeZoomweld = CreateWeld(m, FakeHandle, ScopeZoom, CFrame.new(0, 0, 0, 1, 0, 0
 for i,v in pairs(Char:GetDescendants()) do
 	if v:IsA("BasePart") then v.Transparency = 1 end
 end
-local hat = Char["Sniper"].Handle
+local hat = Char["CRL4Accessory"].Handle
 Align(hat,Handle,Vector3.new(-0.8,-0.2,0),Vector3.new(-0, -180, 0))
 local PE1 = Create("ParticleEmitter"){
 	Parent = Barrel,
